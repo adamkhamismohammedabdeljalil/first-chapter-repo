@@ -1,0 +1,38 @@
+/*the larger grids*/
+.header{
+    grid-area: header;
+}
+.main-left{
+    grid-area: main-left;
+}
+.footer{
+    grid-area: footer;
+}
+.main-right{
+    grid-area: main-right;
+}
+.menu{
+    grid-area: menu;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-areas: 'header header header header header header'
+    'main-left main-left main-right main-right menu menu'
+    'main-left main-left main-right main-right menu menu'
+    'footer footer footer footer menu menu';
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+
+}
+.wrapper > section{
+    background-color: brown;
+    font-size: 20px;
+    padding: 10px;
+}
+/*the smaller grids*/
+section ul{
+    display:grid;
+    grid-template-columns: auto auto;
+}

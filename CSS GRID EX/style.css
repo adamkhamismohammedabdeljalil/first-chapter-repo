@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding-top: 30px;
+    margin: 0 auto;
+    background-color: black;
+}
+.calculator{
+    max-width: 400px;
+    background-color: white;
+    padding: 10px;
+    margin: 0 auto;
+}
+.calculator input{
+    width: 100%;
+    padding: 20px;
+    font-size: 40px;
+    background-color: rgb(74, 73, 73);
+    color: white;
+    border: none;
+    text-align: right;
+    border-radius: 10px 10px 0 0;
+}
+.calc-btns{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.calc-btn{
+    padding: 20px;
+    background-color: aliceblue;
+    font-size: 30px;
+    border: 1px solid black;
+}
+.equals-btn{
+    grid-row: 2/6;
+    grid-column: 4;
+    background-color: rgb(238, 91, 91);
+    border-radius: 0 0 10px 0;
+}
+.zero-btn{
+    border-radius: 0 0 0 10px;
+}
+.plus-btn, .minus-btn, .product-btn, .divide-btn{
+    background-color: lightgray;
+}

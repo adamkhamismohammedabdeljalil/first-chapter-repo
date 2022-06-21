@@ -12,7 +12,7 @@
     gap:25px;
     margin-top: 100px;
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:375px) {
     .container{
         display:flex;
         flex-direction: column;
@@ -23,7 +23,7 @@
         margin-top: 100px;
     }
 }
-@media all and (min-width:520px) and (max-width:699px){
+@media all and (min-width:380px) and (max-width:768px){
     .container{
         display:grid;
         grid-template-columns: 1fr 1fr;
